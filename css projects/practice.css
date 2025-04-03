@@ -1,0 +1,14 @@
+nav{
+    background-color: black;
+    color:white;
+    padding:15px;
+}
+h1,li,ul{
+    display:inline;
+}
+ul{
+    margin-left: 50%;
+}
+li{
+    padding-right:10px ;
+}

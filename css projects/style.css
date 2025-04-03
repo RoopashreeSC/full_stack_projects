@@ -1,0 +1,78 @@
+*{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    padding:0;
+}
+#hone{
+    margin-left: 10px;
+}
+#htwo{
+    text-align: center;
+    display:block;
+    padding:10px;
+}
+.perfumes{
+    border-style: solid;
+    display:inline-block;
+    width:390px;
+    margin:10px;
+    margin-right:0px;
+    display:inline-block;
+}
+#ips{
+    width:80%;
+    margin-left: 10%;
+    display:inline-block;
+    height:30px;
+    border-style:solid;
+    margin-bottom:20px;
+    border-radius: 10px;
+    padding-left:15px;
+}
+.navbar{
+    background-color: black;
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom: 20px;
+    margin-left: none;
+    margin-right: none;
+    padding-right: none;
+    position: relative;
+}
+h1,li{
+    display:inline-block;
+}
+#ul{
+    display:inline-block;
+    position: absolute;
+    right:10px;
+    bottom:20px;
+}
+li{
+    padding-left:10px;
+    list-style: none;
+}
+li:hover{
+    color:rgb(242, 168, 56);
+    cursor: pointer;
+}
+#contents{
+    text-align:center;
+}
+.perfumes p:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+.cont{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+.perfumes img{
+    display:block;
+    width: 390px;
+    height:440px;
+}
