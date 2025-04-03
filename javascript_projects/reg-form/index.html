@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <table border="1px">
+        <tr>
+            <th><lable for="name">Name</lable></th>
+            <td><input type="text" id="name" placeholder="enter your full name" required></td>
+        </tr>
+        <tr>
+            <th><lable for="age">Age</lable></th>
+            <td><input type="number" id="age" placeholder="enter your age in years" required></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td><input type="radio" id="r1" name="gender" value="Male">
+                <lable for="r1">Male</lable>
+                <input type="radio" id="r2" name="gender" value="Female">
+                <lable for="r2">Female</lable>
+            </td>
+        </tr>
+        <tr>
+            <th><lable for="dropdown">Course</lable></th>
+            <td><select id="dropdown">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JAVASCRIPT</option>
+                <option value="fullstack">FULL STACK</option>
+                <option value="python">PYTHON</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th><lable for="email">Email</lable></th>
+            <td><input type="email" id="email" required></td>
+        </tr>
+        <td><button onclick="save_form()">Save</button></td>
+    </table>
+    </center>
+    <hr>
+    <center>
+    <table border="2px" id="tab2" >
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>GENDER</th>
+            <th>COURSE</th>
+            <th>EMAIL</th>
+            <th>STATUS</th>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
+<script src="script.js"></script>

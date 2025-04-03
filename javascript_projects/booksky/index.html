@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich dad poor dad</h2>
+            <h5>Robert</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis illum inventore quae soluta ea ducimus, nisi repellendus dignissimos suscipit cum quaerat necessitatibus aut modi iste obcaecati sequi reprehenderit, odio magnam. Voluptates ducimus accusamus distinctio ad minima quidem repellat, tempore doloribus minus nihil molestiae, facere ex veritatis atque, rerum enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sed officiis hic fugit officia, deleniti nam? Nisi maiores beatae illo earum expedita consectetur ab. Hic amet soluta neque voluptas rerum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iste maiores voluptatem sunt exercitationem error velit itaque repudiandae ea, eveniet quaerat necessitatibus ipsam voluptates fuga ducimus nemo incidunt quasi ad.</p>
+            <button onclick="deletebook(event)">delete</button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="popupbox">
+        <h2>Add book</h2>
+        <form>
+            <input placeholder="title" type="text" id="booktitleinput">
+            <input type="text" placeholder="book author" id="bookauthorinput">
+            <textarea placeholder="description" id="bookdescriptioninput"></textarea>
+
+        </form>
+        <button id="addthisbook">Add</button>
+        <button onclick="closepopup()" id="closepopup">Close</button>
+        
+    </div>
+    <button class="addbutton" id="addbook" onclick="add()">+</button>
+</body>
+</html>
+<script src="script.js"></script>
